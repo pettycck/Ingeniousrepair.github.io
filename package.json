@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.1",
   "type": "module",
-  "homepage": "https://pettycck.github.io/Ingeniousrepair.github.io",
+  "homepage": "https://pettycck.github.io/ingeniousrepair.github.io",
   "scripts": {
     "build": "vite build",
     "predeploy": "npm run build",
