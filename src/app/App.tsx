@@ -7,6 +7,10 @@ import { Contact } from './components/Contact';
 import { Footer } from './components/Footer';
 
 const App = () => {
+  React.useEffect(() => {
+    document.title = 'Ingenious Innovate & Repair';
+  }, []);
+
   return (
     <div className="font-['Inter'] bg-slate-950 min-h-screen text-slate-200 selection:bg-blue-500/30 selection:text-blue-200">
       <Navbar />
